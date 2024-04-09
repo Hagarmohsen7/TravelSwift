@@ -5,15 +5,18 @@ float: right;
 #login{
 background-color: red;
 color: white;
-padding:10px 10px 10px 10px ;
+padding:7px 10px 7px 10px ;
 border-radius: 10px;
 text-decoration: none;
 
 }
 #signup{
     color: black;
-padding:10px 10px 10px 10px ;
+padding:5px 10px 5px 10px ;
 text-decoration: none;
+border-radius: 10px;
+border-color: black;
+border-style: solid;
 
 }
 
