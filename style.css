@@ -1,0 +1,187 @@
+/*----- Lgo ------*/
+#myImage {
+float: right;
+}
+
+
+/*----- header Buttons -----*/
+#login{
+background-color:  rgb(226, 139, 0);
+color: white;
+padding:7px 10px 7px 10px ;
+border-radius: 10px;
+text-decoration: none;
+}
+
+#signup{
+    color: black;
+padding:5px 10px 5px 10px ;
+text-decoration: none;
+border-radius: 10px;
+border-color: black;
+border-style: solid;
+}
+
+#home{
+    color: rgb(0, 0, 0);
+    padding:5px 10px 5px 10px ;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: rgb(0, 55, 128);
+    border-style: solid;
+}
+
+
+/*----- Fonts -----*/
+@font-face {
+    font-family: Ana;
+    src: url(Anastasia.otf);
+}
+@font-face {
+    font-family: sunny;
+    src: url(sunny.ttf);
+}
+@font-face{
+    font-family: mon;
+    src: url(MouldyCheeseRegular-WyMWG.ttf);
+}
+
+/*----- Title and Logo -----*/
+#ts{
+    font-weight: bold;
+    padding-left: 30px;
+  font-family: Ana;
+  font-size: 70px;
+
+}
+
+#text1{
+    background-color: rgb(250, 239, 225);
+    background-position: center;
+    margin-left: 50px; 
+     padding: 10px;
+    width: 500px;
+    height: 50px;
+}
+
+/*----- Section.1 "Our Trips" -----*/
+#sp{
+    font-family: sunny;
+    font-size: 40px; ;
+    padding-left: 30px;
+    border-top: 2px;
+  border-top-style: solid;
+    border-top-color: goldenrod;
+}
+
+
+/*------ DELETE -----*/
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.img-box{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offers{
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bottom{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+
+/*----- Section.1 "Our Trips" -----*/
+            /*--- Africa ---*/
+#our-trips{
+font-size: 50px;
+font-weight: bold;
+font-family: Ana; 
+}
+.africa{
+    background-color: hsl(0, 0%, 95%);
+    box-shadow: 0 10PX 10PX 0;
+    object-position: left;
+    float: left;
+}
+
+.hg{
+        background-color: hsl(0, 0%, 94%);
+    box-shadow: 3px 5PX 5PX 3px;
+}
+
+.hg1{
+     padding-left:280px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#LM1{
+margin: 0 0 0 70%;
+text-decoration: none;
+font-size: 20px;
+font-family: mon;
+background-color: goldenrod;
+
+border: 1.5px solid rgb(185, 140, 25);
+border-radius: 1px;
+padding: 0 40px;
+     color: rgb(255, 255, 255);
+}
+
+/*----- Asia -----*/
+
+.asia{
+background-color: hsl(0, 0%, 95%);
+box-shadow: 0 10PX 10PX 0;
+object-position: right;
+float: right;
+
+}
+
+.hg2{
+    text-align: right;
+    background-color: hsl(0, 0%, 94%);
+box-shadow: 3px 5PX 5PX 3px;
+}
+
+.hg3{
+    text-align: right;
+ padding-right:280px;
+}
+#LM2{
+    margin: 0 70% 0 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: mon;
+    background-color: goldenrod;
+    
+    border: 1.5px solid rgb(185, 140, 25);
+    border-radius: 1px;
+    padding: 0 40px;
+         color: rgb(255, 255, 255);
+    }
+
